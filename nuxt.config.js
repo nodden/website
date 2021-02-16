@@ -8,7 +8,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'theme-color', content: '#b8a2c4' },
+      { property: "og:description", content: 'Software engineers that like purple and cats. This side is under construction.' },
+      { property: 'og:url', content:'https://nodden.org' },
+      { property: 'og:image', content: 'https://avatars.githubusercontent.com/u/76267446' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/circlenodden.png' }
@@ -32,6 +36,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/bulma'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
