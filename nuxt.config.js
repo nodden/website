@@ -59,5 +59,5 @@ export default {
 }
 
 module.exports = {
-  publicPath: '/'
+  publicPath: '/website'
 }
