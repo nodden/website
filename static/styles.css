@@ -78,3 +78,40 @@ a {
 .scale-1-2:hover {
   transform: scale(1.2);
 }
+
+.round-300 {
+  border-radius: 300px;
+}
+
+.is-100by100-exact {
+  resize: none;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.m-6 {
+  margin: 6em;
+}
+
+.about-name {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.about-desc {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.about-icon {
+  font-size: 16px;
+  color: #1f1f1f;
+}
+
+.about-icon:hover {
+  color: #7f79a4;
+}

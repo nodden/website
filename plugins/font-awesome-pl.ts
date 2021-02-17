@@ -8,7 +8,8 @@ import Vue from 'vue';
 
 fontawesome.library.add(
   brands.faGithub,
-  solid.faEnvelope
+  solid.faEnvelope,
+  solid.faCode
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
