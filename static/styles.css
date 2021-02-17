@@ -31,6 +31,11 @@ a {
   transition: 0.6s ease;
 }
 
+.two-ease {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
 .title-box {
   background-color: #aea6d9;
 }
@@ -119,4 +124,13 @@ a {
 p {
   word-wrap: normal;
   word-break: break-all;
+}
+
+.stonk {
+  color: #9c95c4;
+}
+
+.stonk:hover {
+  color: #645e83;
+  border-bottom: #9c95c4 solid 2px;
 }
