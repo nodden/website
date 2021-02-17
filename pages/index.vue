@@ -1,36 +1,29 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        nodden
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="columns m-5 is-multiline is-mobile">
+    <nav class="column navbar title-box columns is-mobile is-fixed-top" style="padding: 20px;">
+      <a class="column item ml-5 mt-2 is-narrow nav-link has-text-weight-bold white-text"
+         href="/about" target="_blank">
+        About
+      </a>
+    </nav>
+  <!-- todo -->
+
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  head: {
+    meta: [
+      {
+        property: "og:description",
+        content: 'Software engineers that like purple and cats. This side is under construction.'
+      },
+    ]
+  }
+})
 </script>
 
 <style>
@@ -44,16 +37,15 @@ export default Vue.extend({})
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Quicksand',
+  'Source Sans Pro',
+  -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  'Helvetica Neue',
+  Arial,
+  sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;

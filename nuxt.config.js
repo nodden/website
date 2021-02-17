@@ -12,7 +12,6 @@ export default {
       { name: 'theme-color', content: '#b8a2c4' },
       { property: 'og:title', content:'nodden' },
       { property: 'og:author', content: 'nodden.org'},
-      { property: "og:description", content: 'Software engineers that like purple and cats. This side is under construction.' },
       { property: 'og:url', content:'https://nodden.org' },
       { property: 'og:image', content: 'https://avatars.githubusercontent.com/u/76267446' }
     ],
