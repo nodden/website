@@ -52,3 +52,29 @@ a {
   transform: scale(1.1);
   border-radius: 10px;
 }
+
+.is-max-150by150 {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.is-150by150-exact {
+  resize: none;
+  width: 150px;
+  height: 150px;
+}
+
+.center {
+  text-align: center;
+  alignment: center;
+  -moz-text-align-last: center;
+}
+
+.scale-1-2 {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.scale-1-2:hover {
+  transform: scale(1.2);
+}

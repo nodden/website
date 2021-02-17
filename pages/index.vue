@@ -8,6 +8,19 @@
     </nav>
   <!-- todo -->
 
+    <div class="column m-5 columns is-mobile is-multiline is-centered" style="padding-top: 100px;">
+      <figure class="column is-narrow m-3 image is-left">
+        <img class="is-150by150-exact scale-1-2" src="/circlenodden.png">
+      </figure>
+      <div class="column center m-5">
+        <div class="m-5">
+          <p class="m-5 is-36">
+            nodden
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
