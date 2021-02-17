@@ -1,0 +1,135 @@
+html, body {
+  background-color: #e7e7e7;
+  font-family: "Segoe UI", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
+.navbar {
+  box-shadow: 0 0 20px #676186;
+}
+
+.main {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.white-text {
+  color: #5d5b5b;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.six-ease {
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.two-ease {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.title-box {
+  background-color: #aea6d9;
+}
+
+.is-36 {
+  font-size: 36px;
+}
+
+.item {
+  background-color: #9c95c4;
+  border-radius: 6px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.item:hover {
+  border-bottom: #7f79a4 solid 3px;
+  background-color: #9c95c4;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.is-300by300-exact {
+  resize: none;
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.center {
+  text-align: center;
+  alignment: center;
+  -moz-text-align-last: center;
+}
+
+.scale-1-2 {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.scale-1-2:hover {
+  transform: scale(1.2);
+}
+
+.round-300 {
+  border-radius: 300px;
+}
+
+.is-100by100-exact {
+  resize: none;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.m-6 {
+  margin: 6em;
+}
+
+.about-name {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.about-desc {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.about-icon {
+  font-size: 16px;
+  color: #1f1f1f;
+}
+
+.about-icon:hover {
+  color: #7f79a4;
+}
+
+p {
+  word-wrap: normal;
+  word-break: break-all;
+}
+
+.stonk {
+  color: #9c95c4;
+}
+
+.stonk:hover {
+  color: #645e83;
+  border-bottom: #9c95c4 solid 2px;
+}
