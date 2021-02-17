@@ -11,13 +11,13 @@
     <!-- about us -->
 
     <div class="column m-5 columns is-mobile is-multiline is-centered" style="padding-top: 100px;">
-      <div class="column is-full m-3 columns is-mobile is-left">
+      <div class="column m-3 columns is-mobile is-multiline is-left">
         <figure class="column is-narrow m-3 image">
           <img class="is-100by100-exact scale-1-2 round-300 mt-5" src="/26123873">
         </figure>
-        <div class="column is-narrow columns is-multiline m-3 is-mobile">
-          <p class="is-full column about-name">Nick</p>
-          <p class="is-full column about-desc">lorem impsum or whatever jkhajkshdshdkasd jshjkdahjksdjkh</p>
+        <div class="column columns is-multiline m-3 is-mobile is-left">
+          <p class="column is-full about-name">Nick</p>
+          <p class="column about-desc">lorem impsum or whatever jkhajkshdshdkasd jshjkdahjksdjkh</p>
           <div class="column is-full">
             <a href="mailto:nick@nodden.org" target="_blank">
               <font-awesome-icon class="about-icon six-ease mr-2" :icon="['fa', 'envelope']"></font-awesome-icon>
@@ -31,13 +31,13 @@
           </div>
         </div>
       </div>
-      <div class="column is-full m-3 columns is-mobile is-left">
+      <div class="column is-full m-3 columns is-multiline is-mobile is-left">
         <figure class="column is-narrow m-3 image">
           <img class="is-100by100-exact mt-5 scale-1-2 round-300" src="/46942366">
         </figure>
-        <div class="column is-narrow columns is-multiline m-3 is-mobile">
+        <div class="column columns is-multiline m-3 is-mobile is-left">
           <p class="is-full column about-name">Bella</p>
-          <p class="is-full column about-desc">lorem impsum or whatever jkhajkshdshdkasd jshjkdahjksdjkh</p>
+          <p class="column about-desc">lorem impsum or whatever jkhajkshdshdkasd jshjkdahjksdjkh</p>
           <div class="column is-full">
             <a href="mailto:bella@nodden.org" target="_blank">
               <font-awesome-icon class="about-icon six-ease mr-2" :icon="['fa', 'envelope']"></font-awesome-icon>

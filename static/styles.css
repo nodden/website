@@ -115,3 +115,8 @@ a {
 .about-icon:hover {
   color: #7f79a4;
 }
+
+p {
+  word-wrap: normal;
+  word-break: break-all;
+}
