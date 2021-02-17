@@ -59,7 +59,7 @@ export default {
 
   target: 'static',
   router: {
-    base: '/website/'
+    base: '/'
   }
 }
 
