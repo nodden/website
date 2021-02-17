@@ -57,3 +57,7 @@ export default {
   build: {
   }
 }
+
+module.exports = {
+  publicPath: '/'
+}
