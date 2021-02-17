@@ -38,7 +38,14 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/bulma',
-    '@nuxtjs/fontawesome'
+    ['@nuxtjs/fontawesome', {
+      component: 'font-awesome-icon',
+      suffix: true,
+      icons: {
+        brands: true,
+        solid: true
+      }
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
