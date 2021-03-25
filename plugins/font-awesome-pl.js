@@ -4,7 +4,8 @@ import {
 
 import {
   faEnvelope,
-  faCode
+  faCode,
+  faBook
 } from "@fortawesome/free-solid-svg-icons";
 
 import { library } from "@fortawesome/fontawesome";
@@ -15,7 +16,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 library.add(
   faGithub,
   faEnvelope,
-  faCode
+  faCode,
+  faBook
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);

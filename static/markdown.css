@@ -1,0 +1,128 @@
+* {
+  text-shadow: none;
+}
+
+html, body {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.is-18 {
+  font-size: 18px;
+}
+
+html, body {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+/**
+ * uncolored names
+ */
+code {
+  background-color: #cbcbcb;
+  border-radius: 10px;
+  color: #645e83;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+p {
+  margin: 1.5em;
+}
+
+/**
+ * code block
+ */
+code[class*="language-"], pre[class*="language-"] {
+  margin: 1.5em;
+  background-color: #cbcbcb;
+  border-radius: 10px;
+  color: #eaeaea;
+}
+
+/**
+ * keywords
+ */
+.token.atrule, .token.attr-value, .token.keyword {
+  color: #9877b7;
+}
+
+/**
+ * numerical operators, css, string, entity?
+ */
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+  background: none;
+  color: #6b32ba;
+}
+
+/**
+ * number
+ */
+.number {
+  background: none;
+  font-size: inherit;
+  padding: inherit;
+  min-width: inherit;
+  border-radius: inherit;
+  margin: inherit;
+}
+
+/**
+ * boolean, number, const symbol, del
+ */
+.token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted {
+  color: #1f1f1f;
+}
+
+/**
+ * string, char, attribute, builtin? inserted
+ */
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+  color: #645e83;
+}
+
+.token.function, .token.class-name {
+  color: #5d5b5b;
+}
+
+h2 span.icon.icon-link, h3 span.icon.icon-link {
+  background-color: #9877b7;
+  margin-right: 1em;
+  border-radius: 30px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.blog-icon {
+  font-size: 30px;
+  color: #1f1f1f;
+}
+
+.blog-icon:hover {
+  color: #7f79a4;
+}
+
+.blog-person-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}

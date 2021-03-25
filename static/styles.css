@@ -133,3 +133,8 @@ p {
   color: #645e83;
   border-bottom: #9c95c4 solid 2px;
 }
+
+.blog-post-ann {
+  max-width: 600px;
+  border-left: #7f79a4 solid 3px;
+}

@@ -1,11 +1,6 @@
 <template>
   <div class="columns m-5 is-multiline is-mobile">
-    <nav class="column navbar title-box columns is-mobile is-fixed-top" style="padding: 20px;">
-      <a class="column item ml-5 mt-2 is-narrow nav-link has-text-weight-bold white-text"
-         href="/about" target="_blank">
-        About
-      </a>
-    </nav>
+    <nav-bar :about="true" :blog="true"></nav-bar>
     <!-- todo -->
 
     <div style="padding-top: 100px; width: 100%;">
