@@ -1,15 +1,15 @@
 <template>
   <nav class="column navbar title-box columns is-mobile is-fixed-top" style="padding: 20px;">
     <a v-if="home === true" class="column item ml-5 mt-2 is-narrow nav-link has-text-weight-bold white-text"
-       href="/" target="_blank">
+       href="/" target="_self">
       Home
     </a>
     <a v-if="about === true" class="column item ml-5 mt-2 is-narrow nav-link has-text-weight-bold white-text"
-       href="/about" target="_blank">
+       href="/about" target="_self">
       About
     </a>
     <a v-if="blog === true" class="column item ml-5 mt-2 is-narrow nav-link has-text-weight-bold white-text"
-       href="/blog" target="_blank">
+       href="/blog" target="_self">
       Blog
     </a>
   </nav>
